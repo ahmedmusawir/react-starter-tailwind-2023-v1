@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Footer({ childern, twClasses }) {
+function Footer({ children, twClasses }) {
   return (
-    <footer className={`min-w-full border-solid border-2 h-10 ${twClasses}`}>
-      {childern}
+    <footer className={`min-w-full border-solid border-2 ${twClasses}`}>
+      {children ? children : 'This is a Footer container. Must have children'}
     </footer>
   );
 }

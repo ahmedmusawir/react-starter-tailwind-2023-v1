@@ -1,11 +1,9 @@
 import React from 'react';
 
-function Header({ childern, twClasses }) {
+function Header({ children, twClasses }) {
   return (
-    <header
-      className={`min-w-full border-solid border-2 h-10 min-h-max ${twClasses}`}
-    >
-      {childern}
+    <header className={`min-w-full border-solid border-2 ${twClasses}`}>
+      {children ? children : 'This is a Header container. Must have children'}
     </header>
   );
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Main({ childern }) {
+function Main({ children }) {
   return (
-    <main className="min-w-full border-solid border-4 border-indigo-600 flex-grow">
-      {childern}
+    <main className="min-w-full border-dotted border-2 border-green-500 flex flex-grow justify-center">
+      {children}
     </main>
   );
 }

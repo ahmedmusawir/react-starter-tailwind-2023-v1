@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Layout>
-          <Header twClasses={'bg-amber-200'} />
+          <Header twClasses={'bg-gray-200'} />
           <Main>
             <Routes>
               <Route path="/" element={<HomePage />} />
@@ -20,7 +20,7 @@ function App() {
               <Route path="/*" element={<NotFoundPage />} />
             </Routes>
           </Main>
-          <Footer twClasses={'bg-amber-500'} />
+          <Footer twClasses={'bg-gray-200'} />
         </Layout>
       </BrowserRouter>
     </div>
