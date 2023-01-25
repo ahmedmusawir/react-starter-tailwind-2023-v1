@@ -1,10 +1,9 @@
 import React from 'react';
 import './PageOne.scss';
-
+import { Row } from '../components';
 function PageOne() {
   return (
     <>
-      PageOne
       <div className="moose-flex">
         <div className="p-5 border-2">
           <p>

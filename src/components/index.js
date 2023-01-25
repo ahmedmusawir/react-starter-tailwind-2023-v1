@@ -1,9 +1,9 @@
-import Header from './Header';
-import Main from './Main';
-import Footer from './Footer';
-import Layout from './Layout';
-import Page from './Page';
-import Row from './Row';
-import Box from './Box';
-
-export { Header, Main, Footer, Layout, Page, Row, Box };
+export { default as Header } from './Header';
+export { default as Main } from './Main';
+export { default as Footer } from './Footer';
+export { default as Footerbar } from './Footerbar';
+export { default as Layout } from './Layout';
+export { default as Container } from './Container';
+export { default as Row } from './Row';
+export { default as Box } from './Box';
+export { default as Navbar } from './Navbar';

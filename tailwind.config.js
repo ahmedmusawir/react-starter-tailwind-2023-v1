@@ -8,5 +8,12 @@ module.exports = {
       },
     },
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@shrutibalasa/tailwind-grid-auto-fit'),
+    require('daisyui'),
+  ],
+  daisyui: {
+    themes: ['cupcake', 'dark', 'cmyk'],
+  },
 };
